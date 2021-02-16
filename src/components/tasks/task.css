@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1f1f1f;
+}
+ #root{
+    width: 55%;
+    margin: 20px auto;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+}
+
+.headList,.bodyList{
+    display: flex;
+}
+.headList{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.head-name, .head-time, .head-delete{
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+
+.body-name, .body-time, .body-delete{
+    width: 30%;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+}

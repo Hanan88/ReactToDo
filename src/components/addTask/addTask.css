@@ -1,0 +1,16 @@
+form input{
+    width: 40%;
+    height: 47px;
+    padding: 20px;
+}
+form .btn{
+    width: 10%;
+    height: 49px;
+    margin-left: 25px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
